@@ -8,7 +8,7 @@ Summary:	rpmbootstrap is a tool similar to debootstrap for RPM based distributio
 Summary(fr):	rpmbootstrap crée un environnement chrooté pour la distribution concernée
 
 Name:		rpmbootstrap
-Version:	0.9.10
+Version:	0.10.1
 Release:	%mkrel 1
 License:	GPL
 Group:		System/Configuration/Packaging
@@ -16,7 +16,7 @@ Url:		http://trac.project-builder.org
 Source:		ftp://ftp.project-builder.org/src/%{srcname}-%{version}.tar.gz
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-root-%(id -u -n)
 BuildArch:	noarch
-Requires:	perl >= 5.8.4,perl-ProjectBuilder,perl-libwww-perl, 
+Requires:	perl >= 5.8.4,perl-ProjectBuilder >= 0.10.1,perl-libwww-perl, 
 
 %description
 rpmbootstrap is a tool similar to debootstrap for RPM based distributions.
