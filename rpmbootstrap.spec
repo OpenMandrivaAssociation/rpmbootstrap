@@ -22,10 +22,6 @@ Requires:	perl >= 5.8.4,perl-ProjectBuilder >= 0.10.1,perl-libwww-perl,
 rpmbootstrap is a tool similar to debootstrap for RPM based distributions.
 It helps building a chrooted environment for the related distribution
 
-%description -l fr
-rpmbootstrap crée un environnement chrooté pour la distribution concernée
-Il est similaire à debootstrap pour les distributions .deb
-
 %prep
 %setup -q
 
