@@ -8,7 +8,7 @@ Summary:	rpmbootstrap is a tool similar to debootstrap for RPM based distributio
 Summary(fr):	rpmbootstrap crée un environnement chrooté pour la distribution concernée
 
 Name:		rpmbootstrap
-Version:	0.11.2
+Version:	0.11.3
 Release:	%mkrel 1
 License:	GPL
 Group:		System/Configuration/Packaging
