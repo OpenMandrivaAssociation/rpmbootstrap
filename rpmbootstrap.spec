@@ -18,6 +18,7 @@ BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-root-%(id -u -n)
 BuildArch:	noarch
 Requires:	perl >= 5.8.4,perl-ProjectBuilder >= 0.10.1,perl-libwww-perl, 
 
+BuildRequires:	make
 %description
 rpmbootstrap is a tool similar to debootstrap for RPM based distributions.
 It helps building a chrooted environment for the related distribution
