@@ -9,7 +9,7 @@ Summary(fr):	rpmbootstrap crée un environnement chrooté pour la distribution c
 
 Name:		rpmbootstrap
 Version:	0.16.1
-Release:	1%mkrel 1
+Release:	12
 License:	GPL
 Group:		System/Configuration/Packaging
 Url:		https://trac.project-builder.org
